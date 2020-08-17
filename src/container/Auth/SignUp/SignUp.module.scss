@@ -1,0 +1,27 @@
+@mixin tablet {
+    @media (min-width:700px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width:900px) {
+        @content;
+    }
+}
+.SigupUpForm {
+    width:100%;
+    margin: 0px auto;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: none;
+    
+    
+    
+    .Block{
+        width: 100%;
+        background-color: green;
+        padding: 8px;
+        
+    }
+
+}

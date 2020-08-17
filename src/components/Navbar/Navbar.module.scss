@@ -1,0 +1,12 @@
+.Navbar {
+    background-color: green;
+
+    .Navbar_flex {
+        width: 70%;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        color:white;
+    }
+}

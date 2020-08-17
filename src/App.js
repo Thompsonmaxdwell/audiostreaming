@@ -1,17 +1,16 @@
 import React from 'react';
 import Layout from './hoc/Layout/Layout';
-import Aux from './hoc/aux/aux';
-import Auth from './container/Auth/Auth';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from './components/Utilitis/pages/home/home';
 
-
-function App() {
-  return (
-    <Aux>
-        <Layout>
-           <Auth/>
-        </Layout>
-    </Aux>
-  );
+function App(props) {
+	
+	return (
+		<BrowserRouter>
+		   <Route path="/homepage" exact component={Home}/>
+			<Route path="/layout" component={Layout} />
+		</BrowserRouter>
+	);
 }
 
 export default App;

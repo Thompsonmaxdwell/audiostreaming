@@ -1,0 +1,36 @@
+@mixin tablet {
+    @media (min-width:700px) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width:900px) {
+        @content;
+    }
+}
+.SigInForm {
+    width:100%;
+    margin: 0px auto;
+    padding: 13px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+
+    
+    
+    .Block{
+        width: 100%;
+        background-color: green;
+        padding: 8px;
+        
+    }
+    // @include tablet{
+    //     width:55%;
+    // }
+     
+    // @include desktop{
+    //     width:100%;
+        
+    // }
+     
+
+}

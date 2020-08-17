@@ -1,0 +1,41 @@
+.InputWrappper {
+	margin: 10px 0;
+
+
+
+	.Input {
+		padding: 10px;
+		outline: none;
+		border: none;
+		border: white 1px solid;
+		position: relative;
+		width: 100%;
+		box-sizing: border-box;
+		border-radius: 5px;
+		background-color: unset;
+		color:white;
+
+		&::placeholder{
+			color:white;
+		}
+
+	}
+	p {
+		color:white;
+		padding-top: 10px;
+	}
+			.BorderError {
+				border:1.6px solid red;
+				padding-bottom: 3px;
+				
+			}
+			.BorderSuccess {
+				border: 1.6px solid green;
+			}
+			.ErrorMessg {
+				 color: red;
+				 font-size: 13px;
+				 margin:0;
+				padding:0;
+			}
+}

@@ -1,10 +1,10 @@
 import React from 'react';
+import Dashboard from '../../container/dashboard/dashboard';
 
 const Layout = (props) => (
     <div>
-      {props.children}
+        <Dashboard/>
     </div>
-)
-;
+);
  
 export default Layout;
